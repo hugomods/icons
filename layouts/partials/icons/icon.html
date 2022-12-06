@@ -1,0 +1,43 @@
+{{/* This partial creates a inline SVG with the given context.
+  vendor: the icons vendor, such as bootstrap, simple-icons, font-awesome-*. Required.
+  name: the icon name. Required.
+  className: the class name.
+  color: the color of icon.
+  width: the width of icon.
+  height: the height of icon.
+*/}}
+{{- $path := printf "icons/%s/%s.svg" .vendor .name }}
+{{- $icon := resources.Get $path }}
+{{- if not $icon }}
+  {{- warnf "[icons] %s's %s doesn't exist." .vendor .name }}
+{{- end }}
+{{- with $icon }}
+  {{- $attrs := partial "icons/functions/svg-attrs" . }}
+  {{/* Set the class name. */}}
+  {{- with $.className }}
+    {{- $class := . }}
+    {{- with $attrs.Get "class" }}
+      {{- $class = printf "%s %s" . $class }}
+    {{- end }}
+    {{ $attrs.Set "class" $class }}
+  {{- end }}
+  {{/* Set the color. */}}
+  {{- with $.color }}
+    {{- $style := printf "color: %s;" . }}
+    {{- with $attrs.Get "style" }}
+      {{- $style = printf "%s; %s" . $style }}
+    {{- end }}
+    {{ $attrs.Set "style" $style }}
+  {{- end }}
+  {{/* Override the height. */}}
+  {{- with $.height }}
+    {{ $attrs.Set "height" . }}
+  {{- end }}
+  {{/* Override the width. */}}
+  {{- with $.width }}
+    {{ $attrs.Set "width" . }}
+  {{- end }}
+  {{- $attrsHTML := partial "icons/functions/svg-attrs-to-html" $attrs }}
+  {{- $newSvg := printf "<svg %s>" $attrsHTML }}
+  {{- replaceRE `<svg([^>])+>` $newSvg $icon.Content 1 | safeHTML }}
+{{- end -}}
