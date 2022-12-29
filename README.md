@@ -8,11 +8,11 @@ The icons were loaded as inline SVG on demand.
 
 You'll need import the icons' vendors first.
 
-| Vendor | Module Path 
-|---|---
-| [Bootstrap Icons](https://github.com/razonyang/hugo-mod-icons-bootstrap) | `github.com/razonyang/hugo-mod-icons-bootstrap`
-| [Simple Icons](https://github.com/razonyang/hugo-mod-icons-simple-icons) | `github.com/razonyang/hugo-mod-icons-simple-icons`
-| [Font Awesome Icons](https://github.com/razonyang/hugo-mod-icons-font-awesome) | `github.com/razonyang/hugo-mod-icons-font-awesome`
+| Vendor | Vendor Names | Module Path 
+|---|:-:|---
+| [Bootstrap Icons](https://github.com/razonyang/hugo-mod-icons/tree/main/vendors/bootstrap) | `bootstrap` | `github.com/razonyang/hugo-mod-icons/vendors/bootstrap`
+| [Simple Icons](https://github.com/razonyang/hugo-mod-icons/tree/main/vendors/simple-icons) | `simple-icons` | `github.com/razonyang/hugo-mod-icons/vendors/simple-icons`
+| [Font Awesome Icons](https://github.com/razonyang/hugo-mod-icons/tree/main/vendors/font-awesome) | `font-awesome-brands`, `font-awesome-regular`, `font-awesome-solid` | `github.com/razonyang/hugo-mod-icons/vendors/font-awesome`
 
 > [Request a new icons' vendor](https://github.com/razonyang/hugo-mod-icons/issues/new) or list your vendor by PR.
 
@@ -21,10 +21,24 @@ Let's say we're going to use three vendors.
 ```toml
 // config.toml
 theme = [
-  "github.com/razonyang/hugo-mod-icons-bootstrap",
-  "github.com/razonyang/hugo-mod-icons-simple-icons",
-  "github.com/razonyang/hugo-mod-icons-font-awesome",
+  "github.com/razonyang/hugo-mod-icons/vendors/bootstrap",
+  "github.com/razonyang/hugo-mod-icons/vendors/simple-icons",
+  "github.com/razonyang/hugo-mod-icons/vendors/font-awesome",
 ]
+```
+
+or via `module.imports` (recommended)
+
+```toml
+// config.toml
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons/vendors/simple-icons"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons/vendors/font-awesome"
 ```
 
 ## Usage
