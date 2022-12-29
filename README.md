@@ -35,10 +35,6 @@ Now we're able to generate the inline SVG via `icons/icon` partial.
 {{ $context := dict
   "vendor" "bootstrap"
   "name" "house"
-  "height" "1em"
-  "width" "1em"
-  "className" "hugo-icon"
-  "color" "green"
 }}
 {{ partial "icons/icon" $context }}
 ```
@@ -49,7 +45,17 @@ Now we're able to generate the inline SVG via `icons/icon` partial.
 |:-:|:-:|---
 | `vendor` | Y | The vendor name of icons.
 | `name` | Y | The icon name.
-| `height` | N | The height of icon.
-| `width` | N | The width of icon.
-| `className` | N | The class name of `<svg>` tag.
+| `height` | N | The height of icon, default to `1em`.
+| `width` | N | The width of icon, default to `1em`.
+| `className` | N | The additional class names of `<svg>` tag after `hi-svg-inline`.
 | `color` | N | The color of icon.
+
+### Style
+
+You may need to adjust your CSS like following to align the icon to vertical middle. 
+
+```css
+.hi-svg-inline {
+  vertical-align: -0.125rem;
+}
+```
