@@ -6,8 +6,8 @@
   width: the width of icon, default to 1em.
   height: the height of icon, default to 1em.
 */}}
-{{- $path := printf "icons/%s/%s.svg" .vendor .name }}
-{{- $icon := resources.Get $path }}
+{{- $res := dict "vendor" .vendor "name" .name }}
+{{- $icon := partialCached "icons/functions/svg-resource" $res $res }}
 {{- if not $icon }}
   {{- warnf "[icons] %s's %s doesn't exist." .vendor .name }}
 {{- end }}
