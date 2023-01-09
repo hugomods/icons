@@ -1,0 +1,2 @@
+{{- $path := printf "icons/%s/%s.svg" .vendor .name }}
+{{- return (resources.Get $path) -}}

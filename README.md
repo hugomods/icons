@@ -73,3 +73,16 @@ You may need to adjust your CSS like following to align the icon to vertical mid
   vertical-align: -0.125rem;
 }
 ```
+
+### Functions
+
+#### `icons/functions/svg-resource` Function
+
+The `icons/functions/svg-resource` function accept `vendor` and `name` parameters and returns the corresponding icon SVG resource.
+
+```go
+{{ $res := dict "vendor" "bootstrap" "name" "house" }}
+{{ with partialCached "icons/functions/svg-resource" $res $res }}
+<img src="{{ .Permalink }}"></img>
+{{ end }}
+```
