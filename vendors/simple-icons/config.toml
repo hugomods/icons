@@ -2,7 +2,7 @@
 path = "github.com/razonyang/hugo-mod-icons"
 
 [[module.imports]]
-path = "github.com/simple-icons/simple-icons"
+path = "github.com/razonyang/simple-icons"
 ignoreConfig = true
 [[module.imports.mounts]]
 source = "icons"
