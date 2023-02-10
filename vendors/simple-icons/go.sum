@@ -1,4 +1,4 @@
-github.com/razonyang/hugo-mod-icons v0.2.0 h1:xEeFV2bZnimG5KH+l0yWWYtq9doJODBM/IpX6DVB8xY=
-github.com/razonyang/hugo-mod-icons v0.2.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
-github.com/simple-icons/simple-icons v0.0.0-20221211155417-72095f401874 h1:aA4Imk8JdudoWa/9fxKCGJCb1yEhUYca2NMtQGkkQzk=
-github.com/simple-icons/simple-icons v0.0.0-20221211155417-72095f401874/go.mod h1:oOgUUt8yVYOso/wEBi2ojfZP2MU/xxiNccIpaE+jCvE=
+github.com/razonyang/hugo-mod-icons v0.3.0 h1:z9kgC00LDV4QPlK6QgIW8E/iALvuoUW/tIEhlgg+D3w=
+github.com/razonyang/hugo-mod-icons v0.3.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
+github.com/razonyang/simple-icons v8.4.0+incompatible h1:nJk23BXY4shAz5Go/OnM5zdNyEFeVqkt1ZjZ8vGpPsM=
+github.com/razonyang/simple-icons v8.4.0+incompatible/go.mod h1:wQqQhbcK5GWujo4xzio0cQMufqwFVjjU+g3TwHd2iYU=
