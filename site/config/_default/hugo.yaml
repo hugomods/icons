@@ -27,3 +27,5 @@ markup:
     noClasses: false
     lineNos: true
     lineNumbersInTable: false
+build:
+  writeStats: true
