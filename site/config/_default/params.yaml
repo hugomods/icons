@@ -1,0 +1,18 @@
+hb:
+  header:
+    socials:
+      github: razonyang/hugo-mod-icons
+      paypal: razonyang
+      kofi: razonyang
+  footer:
+    socials:
+      github: razonyang/hugo-mod-icons
+      paypal: razonyang
+      kofi: razonyang
+  docs:
+    giscus:
+      repo: razonyang/hugo-mod-icons
+      repo_id: R_kgDOIjQNww
+      category: General
+      category_id: DIC_kwDOIjQNw84CUKU2
+  

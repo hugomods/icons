@@ -1,0 +1,40 @@
+{{- define "main" }}
+  <div class="icons-panel d-flex mb-4 position-sticky py-3 bg-body">
+    <h2 id="icons" class="mb-0">Icons</h2>
+    <form class="subnav-search d-flex flex-nowrap ms-auto">
+      <label for="icon-vendor" class="visually-hidden">Icons vendors</label>
+      <select class="form-control me-2" id="icon-vendor">
+        <option value="">All vendors</option>
+        <option value="bootstrap">Bootstrap</option>
+        <option value="font-awesome">Font Awesome</option>
+        <option value="simple-icons">Simple Icons</option>
+      </select>
+      <label for="icon-search" class="visually-hidden">Search for icons</label>
+      <input
+        class="form-control search mb-0"
+        id="icon-search"
+        type="search"
+        placeholder="Start typing to filter..." />
+    </form>
+  </div>
+
+  {{- $resources := sort (resources.Match "icons/**/*.svg") "Name" }}
+  {{- $icons := slice }}
+  {{- range $resources }}
+    {{- $match := findRESubmatch `icons/(.+)/(.+)\.svg` .Name }}
+    {{- $info := index $match 0 }}
+    {{- $vendor := index $info 1 }}
+    {{- $name := index $info 2 }}
+    {{- $icons = $icons | append (dict
+      "svg" (partial "icons/icon" (dict "vendor" $vendor "name" $name "width" "3em" "height" "3em"))
+      "vendor" $vendor
+      "name" $name)
+    }}
+  {{- end }}
+  <ul
+    class="hugo-mod-icons row row-cols-3 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 list-unstyled list"></ul>
+
+  <script>
+    const icons = JSON.parse("{{ $icons | jsonify }}")
+  </script>
+{{- end -}}
