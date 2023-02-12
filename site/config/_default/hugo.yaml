@@ -5,6 +5,7 @@ module:
   imports:
     - path: github.com/razonyang/hb/modules/base
     - path: github.com/razonyang/hugo-mod-icons/vendors/bootstrap
+    - path: github.com/razonyang/hugo-mod-icons/vendors/feather
     - path: github.com/razonyang/hugo-mod-icons/vendors/font-awesome
     - path: github.com/razonyang/hugo-mod-icons/vendors/simple-icons
     - path: github.com/razonyang/hugo-mod-icons/vendors/tabler
