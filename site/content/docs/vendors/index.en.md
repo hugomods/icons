@@ -26,3 +26,9 @@ The list of supported icons vendors.
 | Module Path                                                | Vendor Names                                                        |
 | ---------------------------------------------------------- | ------------------------------------------------------------------- |
 | `github.com/razonyang/hugo-mod-icons/vendors/font-awesome` | `font-awesome-brands`, `font-awesome-regular`, `font-awesome-solid` |
+
+## Tabler Icons Vendor
+
+| Module Path                                          | Vendor Names |
+| ---------------------------------------------------- | ------------ |
+| `github.com/razonyang/hugo-mod-icons/vendors/tabler` | `tabler`     |
