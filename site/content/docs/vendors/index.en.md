@@ -15,17 +15,23 @@ The list of supported icons vendors.
 | ------------------------------------------------------- | ------------ |
 | `github.com/razonyang/hugo-mod-icons/vendors/bootstrap` | `bootstrap`  |
 
-## Simple Icons Vendor
+## Feather Icons Vendor
 
-| Module Path                                                | Vendor Names   |
-| ---------------------------------------------------------- | -------------- |
-| `github.com/razonyang/hugo-mod-icons/vendors/simple-icons` | `simple-icons` |
+| Module Path                                          | Vendor Names |
+| ---------------------------------------------------- | ------------ |
+| `github.com/razonyang/hugo-mod-icons/vendors/feather` | `feather`     |
 
 ## Font Awesome Icons Vendor
 
 | Module Path                                                | Vendor Names                                                        |
 | ---------------------------------------------------------- | ------------------------------------------------------------------- |
 | `github.com/razonyang/hugo-mod-icons/vendors/font-awesome` | `font-awesome-brands`, `font-awesome-regular`, `font-awesome-solid` |
+
+## Simple Icons Vendor
+
+| Module Path                                                | Vendor Names   |
+| ---------------------------------------------------------- | -------------- |
+| `github.com/razonyang/hugo-mod-icons/vendors/simple-icons` | `simple-icons` |
 
 ## Tabler Icons Vendor
 
