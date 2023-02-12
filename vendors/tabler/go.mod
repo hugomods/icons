@@ -1,0 +1,8 @@
+module github.com/razonyang/hugo-mod-icons/vendors/tabler
+
+go 1.18
+
+require (
+	github.com/razonyang/hugo-mod-icons v0.4.0 // indirect
+	github.com/tabler/tabler-icons v2.3.0+incompatible // indirect
+)
