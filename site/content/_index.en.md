@@ -1,2 +1,5 @@
 ---
+menu:
+  main:
+    name: Icons
 ---
