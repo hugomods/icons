@@ -1,0 +1,29 @@
+title: Hugo Icons Module
+defaultContentLanguageInSubdir: true
+enableRobotsTXT: true
+module:
+  imports:
+    - path: github.com/razonyang/hb/modules/base
+    - path: github.com/razonyang/hugo-mod-icons/vendors/bootstrap
+    - path: github.com/razonyang/hugo-mod-icons/vendors/font-awesome
+    - path: github.com/razonyang/hugo-mod-icons/vendors/simple-icons
+    - path: github.com/razonyang/hb/modules/header/modules/socials
+    - path: github.com/razonyang/hb/modules/header/modules/language-picker
+    - path: github.com/razonyang/hb/modules/header/modules/search
+    - path: github.com/razonyang/hb/modules/footer/modules/socials
+    - path: github.com/razonyang/hb/modules/docs
+    - path: github.com/razonyang/hb/modules/docs/modules/giscus
+    - path: github.com/razonyang/hb/modules/docs/modules/doc-nav
+    - path: github.com/razonyang/hb/modules/bootstrap
+    - path: github.com/razonyang/hb/modules/code-block-panel
+    - path: github.com/razonyang/hugo-mod-seo/modules/base
+outputs:
+  home:
+    - HTML
+    - SearchIndex
+    - RSS
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: false
