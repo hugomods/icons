@@ -13,11 +13,11 @@ The icons were loaded as inline SVG on demand.
 
 You'll need import the icons' vendors first.
 
-| Vendor | Vendor Names | Module Path 
-|---|:-:|---
-| [Bootstrap Icons](https://github.com/razonyang/hugo-mod-icons/tree/main/vendors/bootstrap) | `bootstrap` | `github.com/razonyang/hugo-mod-icons/vendors/bootstrap`
-| [Simple Icons](https://github.com/razonyang/hugo-mod-icons/tree/main/vendors/simple-icons) | `simple-icons` | `github.com/razonyang/hugo-mod-icons/vendors/simple-icons`
-| [Font Awesome Icons](https://github.com/razonyang/hugo-mod-icons/tree/main/vendors/font-awesome) | `font-awesome-brands`, `font-awesome-regular`, `font-awesome-solid` | `github.com/razonyang/hugo-mod-icons/vendors/font-awesome`
+| Vendor                                                                                           |                            Vendor Names                             | Module Path                                                |
+| ------------------------------------------------------------------------------------------------ | :-----------------------------------------------------------------: | ---------------------------------------------------------- |
+| [Bootstrap Icons](https://github.com/razonyang/hugo-mod-icons/tree/main/vendors/bootstrap)       |                             `bootstrap`                             | `github.com/razonyang/hugo-mod-icons/vendors/bootstrap`    |
+| [Simple Icons](https://github.com/razonyang/hugo-mod-icons/tree/main/vendors/simple-icons)       |                           `simple-icons`                            | `github.com/razonyang/hugo-mod-icons/vendors/simple-icons` |
+| [Font Awesome Icons](https://github.com/razonyang/hugo-mod-icons/tree/main/vendors/font-awesome) | `font-awesome-brands`, `font-awesome-regular`, `font-awesome-solid` | `github.com/razonyang/hugo-mod-icons/vendors/font-awesome` |
 
 > [Request a new icons' vendor](https://github.com/razonyang/hugo-mod-icons/issues/new) or list your vendor by PR.
 
@@ -60,18 +60,18 @@ Now we're able to generate the inline SVG via `icons/icon` partial.
 
 ### Context
 
-| Name | Required | Description
-|:-:|:-:|---
-| `vendor` | Y | The vendor name of icons.
-| `name` | Y | The icon name.
-| `height` | N | The height of icon, default to `1em`.
-| `width` | N | The width of icon, default to `1em`.
-| `className` | N | The additional class names of `<svg>` tag after `hi-svg-inline`.
-| `color` | N | The color of icon.
+| Name        | Required | Description                                                      |
+| ----------- | :------: | ---------------------------------------------------------------- |
+| `vendor`    |    Y     | The vendor name of icons.                                        |
+| `name`      |    Y     | The icon name.                                                   |
+| `height`    |    N     | The height of icon, default to `1em`.                            |
+| `width`     |    N     | The width of icon, default to `1em`.                             |
+| `className` |    N     | The additional class names of `<svg>` tag after `hi-svg-inline`. |
+| `color`     |    N     | The color of icon.                                               |
 
 ### Style
 
-You may need to adjust your CSS like following to align the icon to vertical middle. 
+You may need to adjust your CSS like following to align the icon to vertical middle.
 
 ```css
 .hi-svg-inline {
@@ -90,4 +90,23 @@ The `icons/functions/svg-resource` function accept `vendor` and `name` parameter
 {{ with partialCached "icons/functions/svg-resource" $res $res }}
 <img src="{{ .Permalink }}"></img>
 {{ end }}
+```
+
+### `icons/icon` Shortcode
+
+| Parameter   | Position |  Type  | Required | Description              |
+| ----------- | :------: | :----: | :------: | ------------------------ |
+| `vendor`    |   `#1`   | String |    Y     | The icons vendor's name. |
+| `name`      |   `#2`   | String |    Y     | The icon's name.         |
+| `color`     |    -     | String |    -     | The icon's color.        |
+| `className` |    -     | String |    -     | The icon's class name.   |
+| `width`     |    -     | String |    -     | The icon's width.        |
+| `height`    |    -     | String |    -     | s The icon's height.     |
+
+```markdown
+{{< icons/icon bootstrap book >}}
+```
+
+```markdown
+{{< icons/icon vendor=bootstrap name=book >}}
 ```
