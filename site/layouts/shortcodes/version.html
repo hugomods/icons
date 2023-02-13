@@ -1,0 +1,5 @@
+{{- $api := printf "https://api.razonyang.com/v1/github/tag/razonyang/hugo-mod-icons?prefix=vendors/%s/" (.Get 0) }}
+{{- $url := printf "https://img.shields.io/badge/dynamic/json?color=blue&label=version&query=name&url=%s" ($api) }}
+<p>
+  <img src="{{ $url }}" />
+</p>
