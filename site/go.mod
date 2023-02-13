@@ -16,6 +16,7 @@ replace github.com/razonyang/hugo-mod-icons/vendors/tabler => ../vendors/tabler
 
 require (
 	github.com/razonyang/hb v0.4.2 // indirect
+	github.com/razonyang/hb/modules/back-to-top v0.1.2 // indirect
 	github.com/razonyang/hb/modules/base v0.3.4 // indirect
 	github.com/razonyang/hb/modules/bootstrap v0.1.0 // indirect
 	github.com/razonyang/hb/modules/code-block-panel v0.1.0 // indirect
