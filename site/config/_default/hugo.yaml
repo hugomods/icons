@@ -18,6 +18,7 @@ module:
     - path: github.com/razonyang/hb/modules/docs/modules/doc-nav
     - path: github.com/razonyang/hb/modules/bootstrap
     - path: github.com/razonyang/hb/modules/code-block-panel
+    - path: github.com/razonyang/hb/modules/back-to-top
     - path: github.com/razonyang/hugo-mod-seo/modules/base
 outputs:
   home:

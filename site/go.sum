@@ -1,5 +1,7 @@
 github.com/razonyang/hb v0.4.2 h1:XgzrbTeyrdEPT+mHj45KL4nLvONFy9hYjZ7lDy2HoiA=
 github.com/razonyang/hb v0.4.2/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
+github.com/razonyang/hb/modules/back-to-top v0.1.2 h1:cHcH+K7Cs+eXDUsle68sUCYl8U2VcWQ9wLxAPN0JSy4=
+github.com/razonyang/hb/modules/back-to-top v0.1.2/go.mod h1:VeYbEZt9sfojnIfhas9kKXRwErznbYHy9Y2P5nitTVQ=
 github.com/razonyang/hb/modules/base v0.3.4 h1:3YGcCR/4OMlV4EHf3lnZjdqGPk1OX8MIwbvQajplg+U=
 github.com/razonyang/hb/modules/base v0.3.4/go.mod h1:rfidPXOv6nLUfBER02bFgfNd7sdgf30ZVX7vGK7vLxA=
 github.com/razonyang/hb/modules/bootstrap v0.1.0 h1:XJJ+LCn/8Vu6g21ACYfbE0IkHcBVT279HY+QF+Yv5IA=
