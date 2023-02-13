@@ -8,10 +8,16 @@ declare var icons: Array<icon>;
 
 
 (() => {
+    let timer = 0
     
     const input = document.querySelector("#icon-search") as HTMLInputElement
-    input.addEventListener("keydown", () => {
-        search()
+    input.addEventListener("keyup", () => {
+        // remove the delay search action if user is still typing.
+        clearInterval(timer)
+        // create a delay search action when typing.
+        timer = setInterval(() => {
+            search()
+        }, 300)
     })
 
     const vendor = document.querySelector("#icon-vendor") as HTMLSelectElement
@@ -19,11 +25,17 @@ declare var icons: Array<icon>;
         search()
     })
 
+    let lock = false
     const container = document.querySelector('.hugo-mod-icons')
     const search = () => {
-        container.innerHTML = ''
-        const q = input.value
-        const v = vendor.value
+        if (lock) {
+            return
+        }
+        lock = true
+
+        container.innerHTML = 'searching...'
+        const q = input.value.trim()
+        const v = vendor.value.trim()
 
         const items = icons.filter((icon) => icon.name.indexOf(q) >= 0 && icon.vendor.indexOf(v) === 0)
         let s = ''
@@ -35,7 +47,8 @@ declare var icons: Array<icon>;
   <div class="text-muted text-center mt-1 user-select-all">${icon.name}</div>
 </li>`
         }
-        container.insertAdjacentHTML('beforeend', s)
+        container.innerHTML = s
+        lock = false
     }
 
     search()

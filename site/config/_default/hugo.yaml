@@ -25,6 +25,9 @@ outputs:
     - SearchIndex
     - RSS
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     lineNos: true
