@@ -11,7 +11,7 @@ declare var icons: Array<icon>;
     let timer = 0
     
     const input = document.querySelector("#icon-search") as HTMLInputElement
-    input.addEventListener("keyup", () => {
+    input?.addEventListener("keyup", () => {
         // remove the delay search action if user is still typing.
         clearInterval(timer)
         // create a delay search action when typing.
@@ -21,14 +21,14 @@ declare var icons: Array<icon>;
     })
 
     const vendor = document.querySelector("#icon-vendor") as HTMLSelectElement
-    vendor.addEventListener("change", () => {
+    vendor?.addEventListener("change", () => {
         search()
     })
 
     let lock = false
     const container = document.querySelector('.hugo-mod-icons')
     const search = () => {
-        if (lock) {
+        if (!container || lock) {
             return
         }
         lock = true
