@@ -1,9 +1,8 @@
 {{- define "main" }}
   <div class="icons-panel d-flex mb-4 position-sticky py-3 bg-body">
-    <h2 id="icons" class="mb-0">Icons</h2>
-    <form class="subnav-search d-flex flex-nowrap ms-auto">
+    <form class="subnav-search d-flex flex-nowrap w-100">
       <label for="icon-vendor" class="visually-hidden">Icons vendors</label>
-      <select class="form-control me-2" id="icon-vendor">
+      <select class="form-control me-2 w-auto" id="icon-vendor">
         <option value="">All vendors</option>
         <option value="bootstrap">Bootstrap</option>
         <option value="feather">Feather</option>
@@ -13,7 +12,7 @@
       </select>
       <label for="icon-search" class="visually-hidden">Search for icons</label>
       <input
-        class="form-control search mb-0"
+        class="form-control search mb-0 ms-auto"
         id="icon-search"
         type="search"
         placeholder="Type to filter" />
