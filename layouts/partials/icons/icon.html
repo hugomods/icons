@@ -7,37 +7,37 @@
   height: the height of icon, default to 1em.
 */}}
 {{- $res := dict "vendor" .vendor "name" .name }}
-{{- $icon := partialCached "icons/functions/svg-resource" $res $res }}
-{{- if not $icon }}
-  {{- warnf "[icons] %s's %s doesn't exist." .vendor .name }}
-{{- end }}
-{{- with $icon }}
-  {{- $attrs := partial "icons/functions/svg-attrs" . }}
+{{- $icon := partialCached "icons/functions/svg-resource" $res $res -}}
+{{- if not $icon -}}
+  {{- warnf "[icons] %s's %s doesn't exist." .vendor .name -}}
+{{- end -}}
+{{- with $icon -}}
+  {{- $attrs := partial "icons/functions/svg-attrs" . -}}
   {{/* Set the class name. */}}
-  {{- with $.className }}
-    {{- $class := . }}
-    {{- with $attrs.Get "class" }}
-      {{- $class = printf "%s %s" . $class }}
-    {{- end }}
-    {{ $attrs.Set "class" $class }}
-  {{- end }}
+  {{- with $.className -}}
+    {{- $class := . -}}
+    {{- with $attrs.Get "class" -}}
+      {{- $class = printf "%s %s" . $class -}}
+    {{- end -}}
+    {{ $attrs.Set "class" $class -}}
+  {{- end -}}
   {{/* Set the color. */}}
-  {{- with $.color }}
-    {{- $style := printf "color: %s;" . }}
-    {{- with $attrs.Get "style" }}
-      {{- $style = printf "%s; %s" . $style }}
-    {{- end }}
-    {{ $attrs.Set "style" $style }}
-  {{- end }}
+  {{- with $.color -}}
+    {{- $style := printf "color: %s;" . -}}
+    {{- with $attrs.Get "style" -}}
+      {{- $style = printf "%s; %s" . $style -}}
+    {{- end -}}
+    {{ $attrs.Set "style" $style -}}
+  {{- end -}}
   {{/* Override the height. */}}
-  {{- with default "1em" $.height }}
-    {{ $attrs.Set "height" . }}
-  {{- end }}
+  {{- with default "1em" $.height -}}
+    {{ $attrs.Set "height" . -}}
+  {{- end -}}
   {{/* Override the width. */}}
-  {{- with default "1em" $.width }}
-    {{ $attrs.Set "width" . }}
-  {{- end }}
-  {{- $attrsHTML := partial "icons/functions/svg-attrs-to-html" $attrs }}
-  {{- $newSvg := printf "<svg %s>" $attrsHTML }}
-  {{- replaceRE `<svg([^>])+>` $newSvg $icon.Content 1 | safeHTML }}
+  {{- with default "1em" $.width -}}
+    {{ $attrs.Set "width" . -}}
+  {{- end -}}
+  {{- $attrsHTML := partial "icons/functions/svg-attrs-to-html" $attrs -}}
+  {{- $newSvg := printf "<svg %s>" $attrsHTML -}}
+  {{- replaceRE `<svg([^>])+>` $newSvg $icon.Content 1 | safeHTML -}}
 {{- end -}}
