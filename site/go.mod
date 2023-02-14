@@ -19,8 +19,8 @@ require (
 	github.com/razonyang/hb/modules/back-to-top v0.1.2 // indirect
 	github.com/razonyang/hb/modules/base v0.3.4 // indirect
 	github.com/razonyang/hb/modules/bootstrap v0.1.0 // indirect
-	github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.0 // indirect
-	github.com/razonyang/hb/modules/code-block-panel v0.1.0 // indirect
+	github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.1 // indirect
+	github.com/razonyang/hb/modules/code-block-panel v0.1.1 // indirect
 	github.com/razonyang/hb/modules/docs v0.1.0 // indirect
 	github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.1 // indirect
 	github.com/razonyang/hb/modules/docs/modules/giscus v0.1.0 // indirect
@@ -32,10 +32,11 @@ require (
 	github.com/razonyang/hb/modules/header/modules/socials v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-base v0.3.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.2.0 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/feather v0.0.0-00010101000000-000000000000 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.0.0-00010101000000-000000000000 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.0.0-00010101000000-000000000000 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/tabler v0.0.0-00010101000000-000000000000 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/feather v0.1.0 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.2.1 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.2.1 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/tabler v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-search v0.14.1 // indirect
+	github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 // indirect
 	github.com/razonyang/hugo-mod-snackbar v0.1.0 // indirect
 )
