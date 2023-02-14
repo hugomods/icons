@@ -19,6 +19,7 @@ require (
 	github.com/razonyang/hb/modules/back-to-top v0.1.2 // indirect
 	github.com/razonyang/hb/modules/base v0.3.4 // indirect
 	github.com/razonyang/hb/modules/bootstrap v0.1.0 // indirect
+	github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.0 // indirect
 	github.com/razonyang/hb/modules/code-block-panel v0.1.0 // indirect
 	github.com/razonyang/hb/modules/docs v0.1.0 // indirect
 	github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.1 // indirect
