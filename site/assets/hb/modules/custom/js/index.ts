@@ -42,9 +42,9 @@ declare var icons: Array<icon>;
         for (let i = 0; i < items.length; i++) {
             const icon = items[i]
             s += `<li class="hugo-mod-icon col mb-4">
-  <div class="bg-light d-flex align-items-center justify-content-center p-5">${icon.svg}</div>
-  <div class="text-muted text-center mt-2 user-select-all">${icon.vendor}</div>
-  <div class="text-muted text-center mt-1 user-select-all">${icon.name}</div>
+  <div class="bg-light d-flex align-items-center justify-content-center p-4 p-md-5">${icon.svg}</div>
+  <div class="text-muted text-center mt-2 user-select-all text-break">${icon.vendor}</div>
+  <div class="text-muted text-center mt-1 user-select-all text-break">${icon.name}</div>
 </li>`
         }
         container.innerHTML = s
