@@ -1,6 +1,7 @@
 {{- define "main" }}
-  <div class="icons-panel d-flex mb-4 position-sticky py-3 bg-body">
-    <form class="subnav-search d-flex flex-nowrap w-100">
+  {{- $resources := sort (resources.Match "icons/**/*.svg") "Name" }}
+  <div class="icons-panel d-flex mb-4 position-sticky py-3 bg-body flex-column">
+    <form class="subnav-search d-flex flex-nowrap w-100 mb-3">
       <label for="icon-vendor" class="visually-hidden">Icons vendors</label>
       <select class="form-control me-2 w-auto" id="icon-vendor">
         <option value="">All vendors</option>
@@ -18,9 +19,8 @@
         type="search"
         placeholder="Type to filter" />
     </form>
+    <small class="text-muted mb-0 ms-1">Found <span class="icon-count text-primary">{{ len $resources }}</span> icons.</small>
   </div>
-
-  {{- $resources := sort (resources.Match "icons/**/*.svg") "Name" }}
   {{- $icons := slice }}
   {{- range $resources }}
     {{- $match := findRESubmatch `icons/(.+)/(.+)\.svg` .Name }}
