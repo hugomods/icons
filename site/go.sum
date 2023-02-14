@@ -6,10 +6,10 @@ github.com/razonyang/hb/modules/base v0.3.4 h1:3YGcCR/4OMlV4EHf3lnZjdqGPk1OX8MIw
 github.com/razonyang/hb/modules/base v0.3.4/go.mod h1:rfidPXOv6nLUfBER02bFgfNd7sdgf30ZVX7vGK7vLxA=
 github.com/razonyang/hb/modules/bootstrap v0.1.0 h1:XJJ+LCn/8Vu6g21ACYfbE0IkHcBVT279HY+QF+Yv5IA=
 github.com/razonyang/hb/modules/bootstrap v0.1.0/go.mod h1:QCoMAZuDHz9/oDpy9FchkrOzlmhmEAPgV1VWvABKcUA=
-github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.0 h1:CkDAF/vCTHKGKqqNDUrUzUPcN57sX5gPEeDNLYh55wM=
-github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.0/go.mod h1:HkJ7wZmfvHQQhnhUzVkdI1eG5Bpr7qpl3tKtK+ioloo=
-github.com/razonyang/hb/modules/code-block-panel v0.1.0 h1:ORMHpnSOlDeuKyRlRShuw7PyTIV1zeYUOP8GPooVSO8=
-github.com/razonyang/hb/modules/code-block-panel v0.1.0/go.mod h1:0pd73yUEubuHSja8iJri2YmL+AkPsBD8QnMYeF9jyFY=
+github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.1 h1:om8r1VY7dWNlfZokW/yzJcffDDr7RMFRUVb7++lB/sI=
+github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.1/go.mod h1:HkJ7wZmfvHQQhnhUzVkdI1eG5Bpr7qpl3tKtK+ioloo=
+github.com/razonyang/hb/modules/code-block-panel v0.1.1 h1:BtzFwYBTXgD4j9SJFzPqf+INCfMb3lwKwO2YZMnF0Qo=
+github.com/razonyang/hb/modules/code-block-panel v0.1.1/go.mod h1:0pd73yUEubuHSja8iJri2YmL+AkPsBD8QnMYeF9jyFY=
 github.com/razonyang/hb/modules/docs v0.1.0 h1:CdSNQ1MTHi4wegMVxjB5lPqOntql15Ns8fNCv0BWifk=
 github.com/razonyang/hb/modules/docs v0.1.0/go.mod h1:uC1mMpJ+rRJddakgWYJ6VMgC1wFJmF/atvB2i9zlajI=
 github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.1 h1:IRSVyvGmQGNTPrZGLkqUiEj1c6I45AbKdOotcWh7Hbo=
@@ -32,5 +32,7 @@ github.com/razonyang/hugo-mod-base v0.3.0 h1:+S1pYhACtACsxUIvvBHSP8KiCcqHW1kl+bu
 github.com/razonyang/hugo-mod-base v0.3.0/go.mod h1:ZcaKeMZdNIRcijaDnpzluS5CJyUwWl42FEbtVo5UKZE=
 github.com/razonyang/hugo-mod-search v0.14.1 h1:iSnlpm1sHVWf86dLG2FSTlNNtejTDbtsyk1ljQS/7XM=
 github.com/razonyang/hugo-mod-search v0.14.1/go.mod h1:rlFETVHvlAXhq4Q/n+0CLttmhz72XdoY2IbOI5p8Bxg=
+github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 h1:RT6sCmy2VRyiQVHAOKmWETMd3a5NH0NIFUZqx7rjV0A=
+github.com/razonyang/hugo-mod-seo/modules/base v0.2.0/go.mod h1:aUtXKObukremidQQellT5v8LfABlSMsUM3OYeut9Vxs=
 github.com/razonyang/hugo-mod-snackbar v0.1.0 h1:efbJTjTwZTKKgJFxFjnDrmSyYIqX1IQGpqgibvg8Pv4=
 github.com/razonyang/hugo-mod-snackbar v0.1.0/go.mod h1:oyxNmVVSd7ftc/LAVpwOM0HyHX68PDkFc2FOgYZWd3E=
