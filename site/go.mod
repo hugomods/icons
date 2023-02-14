@@ -10,6 +10,8 @@ replace github.com/razonyang/hugo-mod-icons/vendors/feather => ../vendors/feathe
 
 replace github.com/razonyang/hugo-mod-icons/vendors/font-awesome => ../vendors/font-awesome
 
+replace github.com/razonyang/hugo-mod-icons/vendors/mdi => ../vendors/mdi
+
 replace github.com/razonyang/hugo-mod-icons/vendors/simple-icons => ../vendors/simple-icons
 
 replace github.com/razonyang/hugo-mod-icons/vendors/tabler => ../vendors/tabler
@@ -34,6 +36,7 @@ require (
 	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.2.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/feather v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.2.1 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/mdi v0.0.0-00010101000000-000000000000 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.2.1 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/tabler v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-search v0.14.1 // indirect

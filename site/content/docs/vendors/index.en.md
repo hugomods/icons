@@ -33,6 +33,14 @@ The list of supported icons vendors.
 | ---------------------------------------------------------- | ------------------------------------------------------------------- |
 | `github.com/razonyang/hugo-mod-icons/vendors/font-awesome` | `font-awesome-brands`, `font-awesome-regular`, `font-awesome-solid` |
 
+## Material Design Icons Vendor
+
+{{< version mdi >}}
+
+| Module Path                                                | Vendor Names                                                        |
+| ---------------------------------------------------------- | ------------------------------------------------------------------- |
+| `github.com/razonyang/hugo-mod-icons/vendors/mdi` | `mdi` |
+
 ## Simple Icons Vendor
 
 {{< version simple-icons >}}
