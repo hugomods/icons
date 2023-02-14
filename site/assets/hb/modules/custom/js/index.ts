@@ -4,12 +4,11 @@ interface icon {
     svg: string,
 }
 
-declare var icons: Array<icon>;
-
+declare var icons: Array<icon>
 
 (() => {
     let timer = 0
-    
+
     const input = document.querySelector("#icon-search") as HTMLInputElement
     input?.addEventListener("keyup", () => {
         // remove the delay search action if user is still typing.
