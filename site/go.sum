@@ -6,6 +6,8 @@ github.com/razonyang/hb/modules/base v0.3.4 h1:3YGcCR/4OMlV4EHf3lnZjdqGPk1OX8MIw
 github.com/razonyang/hb/modules/base v0.3.4/go.mod h1:rfidPXOv6nLUfBER02bFgfNd7sdgf30ZVX7vGK7vLxA=
 github.com/razonyang/hb/modules/bootstrap v0.1.0 h1:XJJ+LCn/8Vu6g21ACYfbE0IkHcBVT279HY+QF+Yv5IA=
 github.com/razonyang/hb/modules/bootstrap v0.1.0/go.mod h1:QCoMAZuDHz9/oDpy9FchkrOzlmhmEAPgV1VWvABKcUA=
+github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.0 h1:CkDAF/vCTHKGKqqNDUrUzUPcN57sX5gPEeDNLYh55wM=
+github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.0/go.mod h1:HkJ7wZmfvHQQhnhUzVkdI1eG5Bpr7qpl3tKtK+ioloo=
 github.com/razonyang/hb/modules/code-block-panel v0.1.0 h1:ORMHpnSOlDeuKyRlRShuw7PyTIV1zeYUOP8GPooVSO8=
 github.com/razonyang/hb/modules/code-block-panel v0.1.0/go.mod h1:0pd73yUEubuHSja8iJri2YmL+AkPsBD8QnMYeF9jyFY=
 github.com/razonyang/hb/modules/docs v0.1.0 h1:CdSNQ1MTHi4wegMVxjB5lPqOntql15Ns8fNCv0BWifk=
