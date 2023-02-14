@@ -16,7 +16,7 @@ replace github.com/razonyang/hugo-mod-icons/vendors/tabler => ../vendors/tabler
 
 require (
 	github.com/razonyang/hb v0.4.2 // indirect
-	github.com/razonyang/hb/modules/back-to-top v0.1.2 // indirect
+	github.com/razonyang/hb/modules/back-to-top v0.1.3 // indirect
 	github.com/razonyang/hb/modules/base v0.3.4 // indirect
 	github.com/razonyang/hb/modules/bootstrap v0.1.0 // indirect
 	github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.1 // indirect
@@ -28,7 +28,7 @@ require (
 	github.com/razonyang/hb/modules/footer/modules/socials v0.1.2 // indirect
 	github.com/razonyang/hb/modules/header v0.1.7 // indirect
 	github.com/razonyang/hb/modules/header/modules/language-picker v0.1.3 // indirect
-	github.com/razonyang/hb/modules/header/modules/search v0.1.2 // indirect
+	github.com/razonyang/hb/modules/header/modules/search v0.1.3 // indirect
 	github.com/razonyang/hb/modules/header/modules/socials v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-base v0.3.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.2.0 // indirect
