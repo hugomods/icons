@@ -27,6 +27,7 @@ declare var icons: Array<icon>;
 
     let lock = false
     const container = document.querySelector('.hugo-mod-icons')
+    const counter = document.querySelector('.icon-count') as HTMLElement
     const search = () => {
         if (!container || lock) {
             return
@@ -48,6 +49,7 @@ declare var icons: Array<icon>;
 </li>`
         }
         container.innerHTML = s
+        counter.innerHTML = items.length + ''
         lock = false
     }
 
