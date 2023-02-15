@@ -16,7 +16,7 @@ menu:
   <h1 class="display-4 fw-bold mb-4">{{< param title >}}</h1>
   <div class="col-lg-6 mx-auto">
     <p class="lead">{{< param description >}}</p>
-    <p class="lead mb-4">无 JS 和 CSS、按需加载。</p>
+    <p class="lead mb-4">无 JS、无 CSS、无字体、按需加载。</p>
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
       <a role="button" class="btn btn-primary btn-lg px-4 me-sm-3" href="{{< ref path=`docs` lang=en >}}">
         {{< icons/icon vendor=bootstrap name=book className="me-1" >}}
