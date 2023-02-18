@@ -15,3 +15,12 @@ target = "assets/icons/font-awesome-regular"
 [[module.imports.mounts]]
 source = "svgs/solid"
 target = "assets/icons/font-awesome-solid"
+
+[params.icons.vendors.fab]
+name = "font-awesome-brands"
+
+[params.icons.vendors.far]
+name = "font-awesome-regular"
+
+[params.icons.vendors.fas]
+name = "font-awesome-solid"
