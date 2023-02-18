@@ -10,3 +10,6 @@ ignoreConfig = true
 [[module.imports.mounts]]
 source = "icons"
 target = "assets/icons/simple-icons"
+
+[params.icons.vendors.simple]
+name = "simple-icons"

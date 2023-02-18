@@ -47,7 +47,7 @@ The list of supported icons vendors.
 
 | Module Path                                                | Vendor Names   |
 | ---------------------------------------------------------- | -------------- |
-| `github.com/razonyang/hugo-mod-icons/vendors/simple-icons` | `simple-icons` |
+| `github.com/razonyang/hugo-mod-icons/vendors/simple-icons` | `simple-icons` (`simple`) |
 
 ## Tabler Icons Vendor
 
