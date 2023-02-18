@@ -31,7 +31,7 @@ The list of supported icons vendors.
 
 | Module Path                                                | Vendor Names                                                        |
 | ---------------------------------------------------------- | ------------------------------------------------------------------- |
-| `github.com/razonyang/hugo-mod-icons/vendors/font-awesome` | `font-awesome-brands`, `font-awesome-regular`, `font-awesome-solid` |
+| `github.com/razonyang/hugo-mod-icons/vendors/font-awesome` | `font-awesome-brands` (`fab`), `font-awesome-regular` (`far`), `font-awesome-solid` (`fas`) |
 
 ## Material Design Icons Vendor
 
