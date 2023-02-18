@@ -13,40 +13,40 @@ The list of supported icons vendors.
 
 {{< version bootstrap >}}
 
-| Module Path                                             | Vendor Names |
-| ------------------------------------------------------- | ------------ |
-| `github.com/razonyang/hugo-mod-icons/vendors/bootstrap` | `bootstrap` (`bs`)  |
+| Module Path                                             | Vendor Names       |
+| ------------------------------------------------------- | ------------------ |
+| `github.com/razonyang/hugo-mod-icons/vendors/bootstrap` | `bootstrap` (`bs`) |
 
 ## Feather Icons Vendor
 
 {{< version feather >}}
 
-| Module Path                                          | Vendor Names |
-| ---------------------------------------------------- | ------------ |
-| `github.com/razonyang/hugo-mod-icons/vendors/feather` | `feather`     |
+| Module Path                                           | Vendor Names |
+| ----------------------------------------------------- | ------------ |
+| `github.com/razonyang/hugo-mod-icons/vendors/feather` | `feather`    |
 
 ## Font Awesome Icons Vendor
 
 {{< version font-awesome >}}
 
-| Module Path                                                | Vendor Names                                                        |
-| ---------------------------------------------------------- | ------------------------------------------------------------------- |
+| Module Path                                                | Vendor Names                                                                                |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | `github.com/razonyang/hugo-mod-icons/vendors/font-awesome` | `font-awesome-brands` (`fab`), `font-awesome-regular` (`far`), `font-awesome-solid` (`fas`) |
 
 ## Material Design Icons Vendor
 
 {{< version mdi >}}
 
-| Module Path                                                | Vendor Names                                                        |
-| ---------------------------------------------------------- | ------------------------------------------------------------------- |
-| `github.com/razonyang/hugo-mod-icons/vendors/mdi` | `mdi` |
+| Module Path                                       | Vendor Names |
+| ------------------------------------------------- | ------------ |
+| `github.com/razonyang/hugo-mod-icons/vendors/mdi` | `mdi`        |
 
 ## Simple Icons Vendor
 
 {{< version simple-icons >}}
 
-| Module Path                                                | Vendor Names   |
-| ---------------------------------------------------------- | -------------- |
+| Module Path                                                | Vendor Names              |
+| ---------------------------------------------------------- | ------------------------- |
 | `github.com/razonyang/hugo-mod-icons/vendors/simple-icons` | `simple-icons` (`simple`) |
 
 ## Tabler Icons Vendor
