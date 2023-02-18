@@ -15,7 +15,7 @@ The list of supported icons vendors.
 
 | Module Path                                             | Vendor Names |
 | ------------------------------------------------------- | ------------ |
-| `github.com/razonyang/hugo-mod-icons/vendors/bootstrap` | `bootstrap`  |
+| `github.com/razonyang/hugo-mod-icons/vendors/bootstrap` | `bootstrap` (`bs`)  |
 
 ## Feather Icons Vendor
 
