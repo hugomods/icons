@@ -6,10 +6,14 @@
   width: the width of icon, default to 1em.
   height: the height of icon, default to 1em.
 */}}
-{{- $res := dict "vendor" .vendor "name" .name }}
+{{- $vendor := .vendor }}
+{{- with index site.Params.icons.vendors $vendor }}
+  {{- $vendor = .name }}
+{{- end }}
+{{- $res := dict "vendor" $vendor "name" .name }}
 {{- $icon := partialCached "icons/functions/svg-resource" $res $res -}}
 {{- if not $icon -}}
-  {{- warnf "[icons] %s's %s doesn't exist." .vendor .name -}}
+  {{- warnf "[icons] %s's %s doesn't exist." $vendor .name -}}
 {{- end -}}
 {{- with $icon -}}
   {{- $attrs := partial "icons/functions/svg-attrs" . -}}
