@@ -26,7 +26,7 @@ require (
 	github.com/razonyang/hb/modules/docs v0.1.0 // indirect
 	github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.1 // indirect
 	github.com/razonyang/hb/modules/docs/modules/giscus v0.1.0 // indirect
-	github.com/razonyang/hb/modules/footer v0.2.3 // indirect
+	github.com/razonyang/hb/modules/footer v0.2.5 // indirect
 	github.com/razonyang/hb/modules/footer/modules/socials v0.1.2 // indirect
 	github.com/razonyang/hb/modules/header v0.1.8 // indirect
 	github.com/razonyang/hb/modules/header/modules/language-picker v0.1.3 // indirect
