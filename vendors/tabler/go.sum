@@ -1,6 +1,4 @@
-github.com/razonyang/hugo-mod-icons v0.4.0 h1:XbQHH1ok92+K6X/9D244NdmE7k7cHuVxh2nmjo/mvJQ=
-github.com/razonyang/hugo-mod-icons v0.4.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
+github.com/razonyang/hugo-mod-icons v0.5.0 h1:SEm+CqNbm02ULwyCHBwPuZJUlHQ/uh8IYbqaEDFokhg=
 github.com/razonyang/hugo-mod-icons v0.5.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
-github.com/tabler/tabler-icons v2.3.0+incompatible h1:9JDS95CgLQB0zV8FusA48P7M0SXnUOb8qAqougR00fc=
-github.com/tabler/tabler-icons v2.3.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
+github.com/tabler/tabler-icons v2.10.0+incompatible h1:D++YGnh6/1aHkHTTd2xlMa3v66jlHgip+4ta4Pk8b0s=
 github.com/tabler/tabler-icons v2.10.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
