@@ -17,29 +17,28 @@ replace github.com/razonyang/hugo-mod-icons/vendors/simple-icons => ../vendors/s
 replace github.com/razonyang/hugo-mod-icons/vendors/tabler => ../vendors/tabler
 
 require (
-	github.com/razonyang/hb v0.4.2 // indirect
-	github.com/razonyang/hb/modules/back-to-top v0.1.3 // indirect
-	github.com/razonyang/hb/modules/base v0.3.4 // indirect
+	github.com/razonyang/hb v0.9.0 // indirect
+	github.com/razonyang/hb/modules/back-to-top v0.2.0 // indirect
+	github.com/razonyang/hb/modules/base v0.4.0 // indirect
 	github.com/razonyang/hb/modules/bootstrap v0.1.0 // indirect
+	github.com/razonyang/hb/modules/carousel v0.2.0 // indirect
 	github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.1 // indirect
 	github.com/razonyang/hb/modules/code-block-panel v0.1.1 // indirect
-	github.com/razonyang/hb/modules/docs v0.1.0 // indirect
-	github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.1 // indirect
+	github.com/razonyang/hb/modules/docs v0.2.4 // indirect
+	github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.3 // indirect
 	github.com/razonyang/hb/modules/docs/modules/giscus v0.1.0 // indirect
-	github.com/razonyang/hb/modules/footer v0.2.3 // indirect
 	github.com/razonyang/hb/modules/footer/modules/socials v0.1.2 // indirect
-	github.com/razonyang/hb/modules/header v0.1.8 // indirect
 	github.com/razonyang/hb/modules/header/modules/language-picker v0.1.3 // indirect
 	github.com/razonyang/hb/modules/header/modules/search v0.1.3 // indirect
 	github.com/razonyang/hb/modules/header/modules/socials v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-base v0.3.0 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.2.0 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/feather v0.1.0 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.2.1 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.3.0 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/feather v0.0.0-00010101000000-000000000000 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.0.0-00010101000000-000000000000 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/mdi v0.0.0-00010101000000-000000000000 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.2.1 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/tabler v0.1.0 // indirect
-	github.com/razonyang/hugo-mod-search v0.14.1 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.0.0-00010101000000-000000000000 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/tabler v0.0.0-00010101000000-000000000000 // indirect
+	github.com/razonyang/hugo-mod-search v0.15.2 // indirect
 	github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 // indirect
 	github.com/razonyang/hugo-mod-snackbar v0.1.0 // indirect
 )
