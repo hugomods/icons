@@ -4,6 +4,9 @@
     "config:base",
     ":dependencyDashboard"
   ],
+  "ignorePaths": [
+    "site/**"
+   ],
   "packageRules": [
     {
       "matchManagers": ["gomod"],
