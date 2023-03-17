@@ -22,6 +22,7 @@ github.com/razonyang/hb/modules/footer/modules/socials v0.1.2 h1:jSPQlRs9lpDIQ/1
 github.com/razonyang/hb/modules/footer/modules/socials v0.1.2/go.mod h1:LTLmvR6wcdmneZKKyvCenYP08Wiqi5feyCPRSSp0mxs=
 github.com/razonyang/hb/modules/header v0.1.8 h1:1lf5b79ZUFipBTQHqzUYZbfZVDSiqp3YVq/TltdbO5k=
 github.com/razonyang/hb/modules/header v0.1.8/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
+github.com/razonyang/hb/modules/header v0.1.9/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
 github.com/razonyang/hb/modules/header/modules/language-picker v0.1.3 h1:dLrRX/avjVJw89tv99nUhu9E+hbjP3rALqRqnjrd0fI=
 github.com/razonyang/hb/modules/header/modules/language-picker v0.1.3/go.mod h1:j6U3d7KWz3wKKb/9o7gWWjYwrF3zBC2FjrDL/SwxcSg=
 github.com/razonyang/hb/modules/header/modules/search v0.1.3 h1:sdvSSlZ3MErsd77Hx2ALdTmbfkOComu85jrVJ0PyURw=
