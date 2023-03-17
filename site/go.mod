@@ -23,17 +23,17 @@ require (
 	github.com/razonyang/hb/modules/bootstrap v0.1.0 // indirect
 	github.com/razonyang/hb/modules/cloudflare-rocket-loader v0.1.1 // indirect
 	github.com/razonyang/hb/modules/code-block-panel v0.1.1 // indirect
-	github.com/razonyang/hb/modules/docs v0.1.0 // indirect
+	github.com/razonyang/hb/modules/docs v0.2.4 // indirect
 	github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.1 // indirect
 	github.com/razonyang/hb/modules/docs/modules/giscus v0.1.0 // indirect
-	github.com/razonyang/hb/modules/footer v0.2.3 // indirect
+	github.com/razonyang/hb/modules/footer v0.2.5 // indirect
 	github.com/razonyang/hb/modules/footer/modules/socials v0.1.2 // indirect
-	github.com/razonyang/hb/modules/header v0.1.8 // indirect
+	github.com/razonyang/hb/modules/header v0.1.9 // indirect
 	github.com/razonyang/hb/modules/header/modules/language-picker v0.1.3 // indirect
 	github.com/razonyang/hb/modules/header/modules/search v0.1.3 // indirect
 	github.com/razonyang/hb/modules/header/modules/socials v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-base v0.3.0 // indirect
-	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.2.0 // indirect
+	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.3.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/feather v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.2.1 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/mdi v0.0.0-00010101000000-000000000000 // indirect
