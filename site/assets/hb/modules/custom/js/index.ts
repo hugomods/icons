@@ -29,6 +29,8 @@ declare var icons: Array<icon>;
     const container = document.querySelector('.hugo-mod-icons')
     const counter = document.querySelector('.icon-count') as HTMLElement
     const search = () => {
+        clearInterval(timer)
+
         if (!container || lock) {
             return
         }
