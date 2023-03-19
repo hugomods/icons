@@ -4,6 +4,7 @@
 {{- $tag := findRE `<svg[^>]+>` $svg 1 -}}
 {{- $attrs := newScratch -}}
 {{- $attrs.Set "fill" "currentColor" -}}
+{{- $attrs.Set "aria-hidden" "true" -}}
 {{/* Parse the attributes' name="value" pairs. */}}
 {{- range findRE `\w+="[^"]+"` (index $tag 0) -}}
   {{- $pair := split . "=" -}}
