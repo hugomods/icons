@@ -5,7 +5,7 @@ min = "0.110.0"
 path = "github.com/hugomods/icons"
 
 [[module.imports]]
-path = "github.com/razonyang/font-awesome"
+path = "github.com/hugomods/font-awesome"
 [[module.imports.mounts]]
 source = "svgs/brands"
 target = "assets/icons/font-awesome-brands"
