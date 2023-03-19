@@ -1,0 +1,13 @@
+{
+  "bracketSameLine": true,
+  "overrides": [
+    {
+      "files": [
+        "*.html"
+      ],
+      "options": {
+        "parser": "go-template"
+      }
+    }
+  ]
+}

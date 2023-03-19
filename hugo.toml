@@ -1,0 +1,5 @@
+[module.hugoVersion]
+min = "0.110.0"
+
+# [params.icons.vendors.shorthand]
+# name = "full name of vendor"
