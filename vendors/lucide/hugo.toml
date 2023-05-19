@@ -10,3 +10,7 @@ ignoreConfig = true
 [[module.imports.mounts]]
 source = "icons"
 target = "assets/icons/lucide"
+# Feather backwards compatibility
+[[module.imports.mounts]]
+source = "icons"
+target = "assets/icons/feather"
