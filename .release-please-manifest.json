@@ -1,0 +1,10 @@
+{
+    ".": "0.6.0",
+    "vendors/bootstrap": "0.5.0",
+    "vendors/feather": "0.2.0",
+    "vendors/font-awesome": "0.6.0",
+    "vendors/lucide": "0.3.0",
+    "vendors/mdi": "0.6.0",
+    "vendors/simple-icons": "1.0.0",
+    "vendors/tabler": "0.15.0"
+}
