@@ -1,0 +1,54 @@
+{
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+    "bootstrap-sha": "e91a2bcd256fcf2cdc2ee983926b4fdb27612157",
+    "bump-minor-pre-major": true,
+    "bump-patch-for-minor-pre-major": true,
+    "monorepo-tags": true,
+    "release-type": "go",
+    "separate-pull-requests": true,
+    "tag-separator": "/",
+    "changelog-sections": [
+        { "type": "chore", "section": "Miscellaneous Chores", "hidden": true },
+        { "type": "ci", "section": "Continuous Integration" },
+        { "type": "docs", "section": "Documentation 📝" },
+        { "type": "feat", "section": "Features ✨" },
+        { "type": "feature", "section": "Features ✨" },
+        { "type": "fix", "section": "Bug Fixes 🐞" },
+        { "type": "perf", "section": "Performance Improvements ⚡️" },
+        { "type": "style", "section": "Styles 🎨" }
+    ],
+    "packages": {
+        ".": {
+            "exclude-paths": [
+                "vendors/bootstrap",
+                "vendors/feather",
+                "vendors/font-awesome",
+                "vendors/lucide",
+                "vendors/mdi",
+                "vendors/simple-icons",
+                "vendors/tabler"
+            ]
+        },
+        "vendors/bootstrap": {
+            "component": "vendors/bootstrap"
+        },
+        "vendors/feather": {
+            "component": "vendors/feather"
+        },
+        "vendors/font-awesome": {
+            "component": "vendors/font-awesome"
+        },
+        "vendors/lucide": {
+            "component": "vendors/lucide"
+        },
+        "vendors/mdi": {
+            "component": "vendors/mdi"
+        },
+        "vendors/simple-icons": {
+            "component": "vendors/simple-icons"
+        },
+        "vendors/tabler": {
+            "component": "vendors/tabler"
+        }
+    }
+}
