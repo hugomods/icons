@@ -3,3 +3,4 @@ github.com/hugomods/icons v0.6.0/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P3
 github.com/lucide-icons/lucide v0.220.0 h1:SdGefa8UuDz02JRydMX3PlqgOFjvFTgjh/rhPakbHv8=
 github.com/lucide-icons/lucide v0.220.0/go.mod h1:0HX/9u6n25zuV2HgBIuqfMfDktGNXmsvYqL1cOK4aWc=
 github.com/lucide-icons/lucide v0.221.0/go.mod h1:0HX/9u6n25zuV2HgBIuqfMfDktGNXmsvYqL1cOK4aWc=
+github.com/lucide-icons/lucide v0.241.0/go.mod h1:0HX/9u6n25zuV2HgBIuqfMfDktGNXmsvYqL1cOK4aWc=
