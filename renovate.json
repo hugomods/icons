@@ -13,5 +13,6 @@
       "matchDepTypes": ["indirect"],
       "enabled": true
     }
-  ]
+  ],
+  "semanticCommitType": "ci"
 }
