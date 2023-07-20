@@ -4,5 +4,5 @@ go 1.18
 
 require (
 	github.com/hugomods/icons v0.6.0 // indirect
-	github.com/tabler/tabler-icons v2.26.0+incompatible // indirect
+	github.com/tabler/tabler-icons v2.27.0+incompatible // indirect
 )
