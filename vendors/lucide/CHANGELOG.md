@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.3.16](https://github.com/hugomods/icons/compare/vendors/lucide/v0.3.15...vendors/lucide/v0.3.16) (2023-08-18)
+## [0.3.16](https://github.com/hugomods/icons/compare/vendors/lucide/v0.3.15...vendors/lucide/v0.3.16) (2023-08-19)
 
 
 ### Continuous Integration
