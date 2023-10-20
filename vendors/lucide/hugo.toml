@@ -5,7 +5,7 @@ min = "0.110.0"
 path = "github.com/hugomods/icons"
 
 [[module.imports]]
-path = "github.com/lucide-icons/lucide"
+path = "github.com/hugomods/lucide-icons"
 ignoreConfig = true
 [[module.imports.mounts]]
 source = "icons"
