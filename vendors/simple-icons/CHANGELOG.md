@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.19](https://github.com/hugomods/icons/compare/vendors/simple-icons/v1.0.18...vendors/simple-icons/v1.0.19) (2023-10-25)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/simple-icons to v9.19.0+incompatible ([220ebd1](https://github.com/hugomods/icons/commit/220ebd106a668bbc3d6a226941a8774a8530c2e9))
+
 ## [1.0.18](https://github.com/hugomods/icons/compare/vendors/simple-icons/v1.0.17...vendors/simple-icons/v1.0.18) (2023-10-15)
 
 
