@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.21](https://github.com/hugomods/icons/compare/vendors/lucide/v0.3.20...vendors/lucide/v0.3.21) (2023-10-27)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/lucide-icons to v0.290.0 ([4cf7ac6](https://github.com/hugomods/icons/commit/4cf7ac6610f8f185f33739dacf2946d0a81f8cc2))
+
 ## [0.3.20](https://github.com/hugomods/icons/compare/vendors/lucide/v0.3.19...vendors/lucide/v0.3.20) (2023-10-25)
 
 
