@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.5.2](https://github.com/hugomods/icons/compare/vendors/bootstrap/v0.5.1...vendors/bootstrap/v0.5.2) (2023-11-21)
+## [0.5.2](https://github.com/hugomods/icons/compare/vendors/bootstrap/v0.5.1...vendors/bootstrap/v0.5.2) (2023-11-22)
 
 
 ### Continuous Integration
