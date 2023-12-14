@@ -4,5 +4,5 @@ go 1.18
 
 require (
 	github.com/hugomods/icons v0.6.0 // indirect
-	github.com/hugomods/lucide-icons v0.294.0 // indirect
+	github.com/hugomods/lucide-icons v0.295.0 // indirect
 )
