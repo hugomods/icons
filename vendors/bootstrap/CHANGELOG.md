@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.3](https://github.com/hugomods/icons/compare/vendors/bootstrap/v0.5.2...vendors/bootstrap/v0.5.3) (2024-01-03)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/twbs/icons to v1.11.3 ([7df8271](https://github.com/hugomods/icons/commit/7df8271f37ac6ef67fae0527a66357720da4e174))
+
 ## [0.5.2](https://github.com/hugomods/icons/compare/vendors/bootstrap/v0.5.1...vendors/bootstrap/v0.5.2) (2023-11-21)
 
 
