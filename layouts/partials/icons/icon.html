@@ -3,6 +3,7 @@
   name: the icon name. Required.
   className: the class name.
   color: the color of icon.
+  size: the size for both of width and height.
   width: the width of icon, default to 1em.
   height: the height of icon, default to 1em.
 */}}
@@ -16,6 +17,9 @@
   {{- warnf "[icons] %s's %s doesn't exist." $vendor .name -}}
 {{- end -}}
 {{- with $icon -}}
+  {{- $size := default "1em" $.size }}
+  {{- $width := default $size $.width }}
+  {{- $height := default $size $.height }}
   {{- $attrs := partial "icons/functions/svg-attrs" . -}}
   {{/* Set the class name. */}}
   {{- with $.className -}}
@@ -34,11 +38,11 @@
     {{ $attrs.Set "style" $style -}}
   {{- end -}}
   {{/* Override the height. */}}
-  {{- with default "1em" $.height -}}
+  {{- with $height -}}
     {{ $attrs.Set "height" . -}}
   {{- end -}}
   {{/* Override the width. */}}
-  {{- with default "1em" $.width -}}
+  {{- with $width -}}
     {{ $attrs.Set "width" . -}}
   {{- end -}}
   {{- $attrsHTML := partial "icons/functions/svg-attrs-to-html" $attrs -}}

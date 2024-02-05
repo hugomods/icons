@@ -2,7 +2,7 @@
 {{- if .IsNamedParams }}
   {{- $opts.Set "vendor" (.Get "vendor") }}
   {{- $opts.Set "name" (.Get "name") }}
-  {{- range slice "width" "height" "color" "className" }}
+  {{- range slice "size" "width" "height" "color" "className" }}
     {{- $field := . }}
     {{- with $.Get . }}
       {{- $opts.Set $field . }}
