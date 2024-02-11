@@ -6,7 +6,7 @@
 {{- $attrs.Set "fill" "currentColor" -}}
 {{- $attrs.Set "aria-hidden" "true" -}}
 {{/* Parse the attributes' name="value" pairs. */}}
-{{- range findRE `\w+="[^"]+"` (index $tag 0) -}}
+{{- range findRE `[\w-]+="[^"]+"` (index $tag 0) -}}
   {{- $pair := split . "=" -}}
   {{- $name := index $pair 0 -}}
   {{- $val := replace (index $pair 1) `"` "" -}}
