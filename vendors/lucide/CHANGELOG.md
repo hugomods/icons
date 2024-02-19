@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.36](https://github.com/hugomods/icons/compare/vendors/lucide/v0.3.35...vendors/lucide/v0.3.36) (2024-02-19)
+
+
+### Bug Fixes 🐞
+
+* create empty assets folder to be vendorable ([#304](https://github.com/hugomods/icons/issues/304)) ([af60c08](https://github.com/hugomods/icons/commit/af60c08eae72bc49233703dfb5ad3f305169e953))
+
 ## [0.3.35](https://github.com/hugomods/icons/compare/vendors/lucide/v0.3.34...vendors/lucide/v0.3.35) (2024-02-17)
 
 
