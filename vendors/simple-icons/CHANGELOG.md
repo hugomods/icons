@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.30](https://github.com/hugomods/icons/compare/vendors/simple-icons/v1.0.29...vendors/simple-icons/v1.0.30) (2024-02-19)
+
+
+### Bug Fixes 🐞
+
+* create empty assets folder to be vendorable ([#304](https://github.com/hugomods/icons/issues/304)) ([af60c08](https://github.com/hugomods/icons/commit/af60c08eae72bc49233703dfb5ad3f305169e953))
+
 ## [1.0.29](https://github.com/hugomods/icons/compare/vendors/simple-icons/v1.0.28...vendors/simple-icons/v1.0.29) (2024-02-12)
 
 
