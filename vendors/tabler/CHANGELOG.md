@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.26](https://github.com/hugomods/icons/compare/vendors/tabler/v0.15.25...vendors/tabler/v0.15.26) (2024-02-19)
+
+
+### Bug Fixes 🐞
+
+* create empty assets folder to be vendorable ([#304](https://github.com/hugomods/icons/issues/304)) ([af60c08](https://github.com/hugomods/icons/commit/af60c08eae72bc49233703dfb5ad3f305169e953))
+
 ## [0.15.25](https://github.com/hugomods/icons/compare/vendors/tabler/v0.15.24...vendors/tabler/v0.15.25) (2024-02-11)
 
 
