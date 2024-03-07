@@ -5,7 +5,6 @@
     "bump-patch-for-minor-pre-major": true,
     "monorepo-tags": true,
     "release-type": "go",
-    "separate-pull-requests": true,
     "tag-separator": "/",
     "changelog-sections": [
         { "type": "chore", "section": "Miscellaneous Chores", "hidden": true },
