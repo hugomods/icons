@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/hugomods/icons/compare/vendors/mdi/v0.3.4...vendors/mdi/v0.7.0) (2024-03-07)
+
+
+### Miscellaneous Chores
+
+* release 0.7.0 ([1b9b20f](https://github.com/hugomods/icons/commit/1b9b20fb6e0e6a9921b554ffda7f34b991f309dc))
+
 ## [0.3.4](https://github.com/hugomods/icons/compare/vendors/mdi/v0.3.3...vendors/mdi/v0.3.4) (2024-02-19)
 
 
