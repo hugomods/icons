@@ -4,5 +4,5 @@ go 1.18
 
 require (
 	github.com/feathericons/feather v4.29.1+incompatible // indirect
-	github.com/hugomods/icons v0.6.2 // indirect
+	github.com/hugomods/icons v0.6.3 // indirect
 )
