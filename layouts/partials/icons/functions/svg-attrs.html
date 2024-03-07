@@ -15,7 +15,7 @@
 {{/* Append the default class name. */}}
 {{- $className := "hi-svg-inline" -}}
 {{- with $attrs.Get "class" -}}
-  {{- $attrs.Add "class" (printf "%s %s" . $className) -}}
+  {{- $attrs.Set "class" (printf "%s %s" . $className) -}}
 {{- else -}}
   {{- $attrs.Set "class" $className -}}
 {{- end -}}
