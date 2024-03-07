@@ -1,7 +1,7 @@
 {
     ".": "0.6.2",
     "vendors/bootstrap": "0.5.5",
-    "vendors/feather": "0.2.2",
+    "vendors/feather": "0.7.0",
     "vendors/font-awesome": "0.6.4",
     "vendors/lucide": "0.3.36",
     "vendors/mdi": "0.3.4",
