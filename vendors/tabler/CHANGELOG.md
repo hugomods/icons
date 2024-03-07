@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/hugomods/icons/compare/vendors/tabler/v0.15.26...vendors/tabler/v0.7.0) (2024-03-07)
+
+
+### Miscellaneous Chores
+
+* release 0.7.0 ([1b9b20f](https://github.com/hugomods/icons/commit/1b9b20fb6e0e6a9921b554ffda7f34b991f309dc))
+
 ## [0.15.26](https://github.com/hugomods/icons/compare/vendors/tabler/v0.15.25...vendors/tabler/v0.15.26) (2024-02-19)
 
 
