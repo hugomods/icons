@@ -1,6 +1,6 @@
 {
     ".": "0.6.2",
-    "vendors/bootstrap": "0.5.5",
+    "vendors/bootstrap": "0.7.0",
     "vendors/feather": "0.2.2",
     "vendors/font-awesome": "0.6.4",
     "vendors/lucide": "0.3.36",

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/hugomods/icons/compare/vendors/bootstrap/v0.5.5...vendors/bootstrap/v0.7.0) (2024-03-07)
+
+
+### Miscellaneous Chores
+
+* release 0.7.0 ([1b9b20f](https://github.com/hugomods/icons/commit/1b9b20fb6e0e6a9921b554ffda7f34b991f309dc))
+
 ## [0.5.5](https://github.com/hugomods/icons/compare/vendors/bootstrap/v0.5.4...vendors/bootstrap/v0.5.5) (2024-02-19)
 
 
