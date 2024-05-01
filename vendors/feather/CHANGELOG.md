@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/hugomods/icons/compare/vendors/feather/v0.2.3...vendors/feather/v0.2.4) (2024-05-01)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/feathericons/feather to v4.29.2+incompatible ([21dc3b7](https://github.com/hugomods/icons/commit/21dc3b7a7f79a0c174517780c4df72073c62dd41))
+
 ## [0.2.3](https://github.com/hugomods/icons/compare/vendors/feather/v0.2.2...vendors/feather/v0.2.3) (2024-03-07)
 
 
