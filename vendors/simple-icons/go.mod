@@ -4,5 +4,5 @@ go 1.18
 
 require (
 	github.com/hugomods/icons v0.6.3 // indirect
-	github.com/hugomods/simple-icons v11.14.0+incompatible // indirect
+	github.com/hugomods/simple-icons v11.15.0+incompatible // indirect
 )
