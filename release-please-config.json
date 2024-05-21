@@ -19,13 +19,7 @@
     "packages": {
         ".": {
             "exclude-paths": [
-                "vendors/bootstrap",
-                "vendors/feather",
-                "vendors/font-awesome",
-                "vendors/lucide",
-                "vendors/mdi",
-                "vendors/simple-icons",
-                "vendors/tabler"
+                "vendors"
             ]
         },
         "vendors/bootstrap": {
@@ -33,6 +27,9 @@
         },
         "vendors/feather": {
             "component": "vendors/feather"
+        },
+        "vendors/flag": {
+            "component": "vendors/flag"
         },
         "vendors/font-awesome": {
             "component": "vendors/font-awesome"
