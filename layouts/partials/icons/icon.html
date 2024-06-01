@@ -46,7 +46,7 @@
   {{- with $width -}}
     {{ $attrs.Set "width" . -}}
   {{- end -}}
-  {{- $attrsHTML := partial "icons/functions/svg-attrs-to-html" $attrs -}}
+  {{- $attrsHTML := partialCached "icons/functions/svg-attrs-to-html" $attrs $attrs.Values -}}
   {{- $newSvg := printf "<svg %s>" $attrsHTML -}}
   {{- replaceRE `<svg([^>])+>` $newSvg $icon.Content 1 | safeHTML -}}
 {{- end -}}
