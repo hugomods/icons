@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.4](https://github.com/hugomods/icons/compare/v0.6.3...v0.6.4) (2024-06-09)
+
+
+### Performance Improvements ⚡️
+
+* cache icon HTML output ([#373](https://github.com/hugomods/icons/issues/373)) ([cbf1c8d](https://github.com/hugomods/icons/commit/cbf1c8da4fc778ff653d396167b59bc02cb0476f))
+
 ## [0.6.3](https://github.com/hugomods/icons/compare/v0.6.2...v0.6.3) (2024-03-07)
 
 
