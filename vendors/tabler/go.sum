@@ -41,3 +41,4 @@ github.com/tabler/tabler-icons v3.3.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUC
 github.com/tabler/tabler-icons v3.4.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/tabler/tabler-icons v3.5.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/tabler/tabler-icons v3.6.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
+github.com/tabler/tabler-icons v3.7.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
