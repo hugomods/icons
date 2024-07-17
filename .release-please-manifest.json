@@ -3,9 +3,9 @@
     "vendors/bootstrap": "0.5.7",
     "vendors/feather": "0.2.5",
     "vendors/flag": "0.0.2",
-    "vendors/font-awesome": "0.6.7",
+    "vendors/font-awesome": "0.6.8",
     "vendors/lucide": "0.3.38",
     "vendors/mdi": "0.3.6",
     "vendors/simple-icons": "1.0.45",
-    "vendors/tabler": "0.15.37"
+    "vendors/tabler": "0.15.38"
 }
