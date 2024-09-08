@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.42](https://github.com/hugomods/icons/compare/vendors/tabler/v0.15.41...vendors/tabler/v0.15.42) (2024-09-08)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/tabler/tabler-icons to v3.15.0+incompatible ([c1e9925](https://github.com/hugomods/icons/commit/c1e99257b1f6fc01cd693745be806eb607a66e12))
+
 ## [0.15.41](https://github.com/hugomods/icons/compare/vendors/tabler/v0.15.40...vendors/tabler/v0.15.41) (2024-08-27)
 
 
