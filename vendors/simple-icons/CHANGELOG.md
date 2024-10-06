@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.56](https://github.com/hugomods/icons/compare/vendors/simple-icons/v1.0.55...vendors/simple-icons/v1.0.56) (2024-10-06)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/simple-icons to v13.13.0+incompatible ([6eaa839](https://github.com/hugomods/icons/commit/6eaa8395fee3c0793c69a15b6f05adeb8e934742))
+
 ## [1.0.55](https://github.com/hugomods/icons/compare/vendors/simple-icons/v1.0.54...vendors/simple-icons/v1.0.55) (2024-09-29)
 
 
