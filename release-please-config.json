@@ -28,6 +28,9 @@
         "vendors/feather": {
             "component": "vendors/feather"
         },
+        "vendors/devicons": {
+            "component": "vendors/devicons"
+        },
         "vendors/flag": {
             "component": "vendors/flag"
         },
