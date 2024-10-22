@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.5](https://github.com/hugomods/icons/compare/v0.6.4...v0.6.5) (2024-10-22)
+
+
+### Features ✨
+
+* add the `throw_on_error` parameter, default to `true` ([#438](https://github.com/hugomods/icons/issues/438)) ([7143d67](https://github.com/hugomods/icons/commit/7143d67c91ba9d0ba0d196c44da5e28efe5e2449)), closes [#436](https://github.com/hugomods/icons/issues/436)
+
 ## [0.6.4](https://github.com/hugomods/icons/compare/v0.6.3...v0.6.4) (2024-06-09)
 
 
