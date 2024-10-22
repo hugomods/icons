@@ -15,7 +15,11 @@
 {{- $res := dict "vendor" $vendor "name" $name }}
 {{- $icon := partialCached "icons/functions/svg-resource" $res $res -}}
 {{- if not $icon -}}
-  {{- warnf "[icons] %s's %s doesn't exist." $vendor $name -}}
+  {{- if default true site.Params.icons.throw_on_error }}
+    {{- errorf "[icons] %s's %s doesn't exist." $vendor $name }}
+  {{- else }}
+    {{- warnf "[icons] %s's %s doesn't exist." $vendor $name -}}
+  {{- end }}
 {{- end -}}
 {{- with $icon -}}
   {{- $size := default "1em" $.size }}
