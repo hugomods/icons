@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.7](https://github.com/hugomods/icons/compare/vendors/mdi/v0.3.6...vendors/mdi/v0.3.7) (2024-10-23)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/icons to v0.6.5 ([6d1ffff](https://github.com/hugomods/icons/commit/6d1fffffd9bb0cc21418a53b0a54779d8fbcde0d))
+
 ## [0.3.6](https://github.com/hugomods/icons/compare/vendors/mdi/v0.3.5...vendors/mdi/v0.3.6) (2024-06-13)
 
 
