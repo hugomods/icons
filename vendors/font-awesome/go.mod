@@ -4,5 +4,5 @@ go 1.18
 
 require (
 	github.com/hugomods/font-awesome v6.6.0+incompatible // indirect
-	github.com/hugomods/icons v0.6.5 // indirect
+	github.com/hugomods/icons v0.6.6 // indirect
 )
