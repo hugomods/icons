@@ -9,9 +9,6 @@
 */}}
 {{- $vendor := .vendor }}
 {{- $name := string .name }}
-{{- with index site.Params.icons.vendors $vendor }}
-  {{- $vendor = .name }}
-{{- end }}
 {{- $res := dict "vendor" $vendor "name" $name }}
 {{- $icon := partialCached "icons/functions/svg-resource" $res $res -}}
 {{- if not $icon -}}
