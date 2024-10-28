@@ -1,5 +1,5 @@
 {
-    ".": "0.6.5",
+    ".": "0.6.6",
     "vendors/bootstrap": "0.5.8",
     "vendors/devicons": "0.0.2",
     "vendors/feather": "0.2.6",
@@ -7,6 +7,6 @@
     "vendors/font-awesome": "0.6.9",
     "vendors/lucide": "0.3.39",
     "vendors/mdi": "0.3.7",
-    "vendors/simple-icons": "1.0.58",
+    "vendors/simple-icons": "1.0.59",
     "vendors/tabler": "0.15.47"
 }
