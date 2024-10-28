@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.6](https://github.com/hugomods/icons/compare/v0.6.5...v0.6.6) (2024-10-28)
+
+
+### Bug Fixes 🐞
+
+* svg-resource not working with vendor aliases ([#444](https://github.com/hugomods/icons/issues/444)) ([d095b3b](https://github.com/hugomods/icons/commit/d095b3b32a0efd1bfd78a72dc316935ee9c00c03))
+
 ## [0.6.5](https://github.com/hugomods/icons/compare/v0.6.4...v0.6.5) (2024-10-22)
 
 
