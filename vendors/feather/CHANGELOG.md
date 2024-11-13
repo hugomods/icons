@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.7](https://github.com/hugomods/icons/compare/vendors/feather/v0.2.6...vendors/feather/v0.2.7) (2024-11-13)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/icons to v0.6.6 ([45dc84b](https://github.com/hugomods/icons/commit/45dc84bc04781d2b62302e2768c349922e160bd7))
+
 ## [0.2.6](https://github.com/hugomods/icons/compare/vendors/feather/v0.2.5...vendors/feather/v0.2.6) (2024-10-23)
 
 
