@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.11](https://github.com/hugomods/icons/compare/vendors/font-awesome/v0.6.10...vendors/font-awesome/v0.6.11) (2024-11-19)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/font-awesome to v6.7.0+incompatible ([684e0c0](https://github.com/hugomods/icons/commit/684e0c02792244daac8b49a8529b3e83944b23f0))
+
 ## [0.6.10](https://github.com/hugomods/icons/compare/vendors/font-awesome/v0.6.9...vendors/font-awesome/v0.6.10) (2024-11-13)
 
 
