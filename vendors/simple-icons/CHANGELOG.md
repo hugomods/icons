@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/hugomods/icons/compare/vendors/simple-icons/v1.0.61...vendors/simple-icons/v1.1.0) (2024-12-29)
+
+
+### Features ✨
+
+* **simple-icons:** add v14 ([5823c4d](https://github.com/hugomods/icons/commit/5823c4de6aacbba6a04d0145efef7e6bc0e3dd80))
+
 ## [1.0.61](https://github.com/hugomods/icons/compare/vendors/simple-icons/v1.0.60...vendors/simple-icons/v1.0.61) (2024-12-01)
 
 

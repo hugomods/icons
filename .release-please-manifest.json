@@ -7,6 +7,6 @@
     "vendors/font-awesome": "0.6.12",
     "vendors/lucide": "0.3.40",
     "vendors/mdi": "0.3.8",
-    "vendors/simple-icons": "1.0.61",
-    "vendors/tabler": "0.15.49"
+    "vendors/simple-icons": "1.1.0",
+    "vendors/tabler": "0.15.50"
 }
