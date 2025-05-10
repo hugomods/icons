@@ -1,6 +1,6 @@
 {
     ".": "0.6.6",
-    "vendors/bootstrap": "0.5.10",
+    "vendors/bootstrap": "0.5.11",
     "vendors/devicons": "0.0.2",
     "vendors/feather": "0.2.7",
     "vendors/flag": "0.0.2",
