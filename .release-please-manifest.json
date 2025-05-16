@@ -1,6 +1,6 @@
 {
     ".": "0.6.6",
-    "vendors/bootstrap": "0.5.10",
+    "vendors/bootstrap": "0.5.11",
     "vendors/devicons": "0.0.2",
     "vendors/feather": "0.2.7",
     "vendors/flag": "0.0.2",
@@ -8,5 +8,5 @@
     "vendors/lucide": "0.3.40",
     "vendors/mdi": "0.3.8",
     "vendors/simple-icons": "1.1.1",
-    "vendors/tabler": "0.15.52"
+    "vendors/tabler": "0.15.53"
 }
