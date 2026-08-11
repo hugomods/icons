@@ -14,5 +14,8 @@
   {{- with .Get 2 }}
     {{- $opts.Set "size" . }}
   {{- end }}
+  {{‐ with .Get 3 }}
+    {{- $opts.Set "color" . }}
+  {{- end }}
 {{- end }}
 {{- partial "icons/icon" $opts.Values -}}
